@@ -52,7 +52,7 @@ function App() {
             </button>
 
             <button
-              onClick={() => callLambda(API_ENDPOINT2, 'b3')}
+              onClick={() => callLambda(API_ENDPOINT3, 'b3')}
               disabled={loadingButton === 'b3'}
               className={loadingButton === 'b3' ? 'loading' : ''}
             >
