@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const API_ENDPOINT1 = 'https://9bxp3hgj8c.execute-api.ap-northeast-1.amazonaws.com/function1-tanaka';
 const API_ENDPOINT2 = 'https://9bxp3hgj8c.execute-api.ap-northeast-1.amazonaws.com/function2-tanaka';
-const API_ENDPOITN3 = 'https://9bxp3hgj8c.execute-api.ap-northeast-1.amazonaws.com/function3-tanaka'
+const API_ENDPOINT3 = 'https://9bxp3hgj8c.execute-api.ap-northeast-1.amazonaws.com/function3-tanaka'
 
 function App() {
   const [result, setResult] = useState('結果がここに表示されます');
